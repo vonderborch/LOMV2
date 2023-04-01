@@ -1,0 +1,5 @@
+dotnet sdk 7 must be installed: 
+x64 lnik: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-7.0.202-windows-x64-installer
+
+Run this in LOMV2/LOMV2 folder
+dotnet publish -r win-x64 -c release --sc:false -p:PublishSingleFile=true
